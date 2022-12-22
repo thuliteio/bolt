@@ -1,0 +1,20 @@
+{{ define "main" }}
+<main>
+  <article>
+    <header>
+      <h1>{{ .Title }}</h1>
+    </header>
+    {{ .Content }}
+  </article>
+  <div class="terms">
+    <ul class="list-inline">
+    {{ range .Pages -}}
+      <li class="list-inline-item"><a class="button-link" href="{{ .RelPermalink }}" role="button">{{ .Title }}</a></li>
+    {{ end -}}
+    </ul>
+  </div>
+  <p class="text-center">
+    <a href="{{ "/blog/" | absURL }}">View all posts →</a>
+  </p>
+</main>
+{{ end }}

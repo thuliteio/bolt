@@ -1,0 +1,2 @@
+{{ $modeInit := resources.Get "js/mode-init.js" | js.Build | minify -}}
+<script>{{ $modeInit.Content | safeJS }}</script>

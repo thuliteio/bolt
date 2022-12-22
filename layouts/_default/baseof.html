@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="{{ .Site.LanguageCode | default "en" }}" data-color-mode="light">
+  {{ partial "head/head.html" . }}
+  {{ partial "head/body-class.html" . }}
+  <body class="{{ delimit (.Scratch.Get "class") " " }}">
+    {{ partial "header/header" . }}
+    {{ block "main" . }}{{ end }}
+    {{ block "sidebar-footer" . }}{{ end }}
+    {{ partial "footer/footer" . }}
+    {{ if templates.Exists "partials/footer/script-footer.html" -}}
+      {{ partial "footer/script-footer.html" . }}
+    {{ else -}}
+      {{ partial "footer/script-footer-core.html" . }}
+    {{ end -}}
+  </body>
+</html>

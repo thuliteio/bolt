@@ -1,0 +1,14 @@
+// Source: https://ryanfeigenbaum.com/dark-mode/
+
+/* stylelint-disable selector-class-pattern */
+
+/* Any element with the class "light--hidden" will be hidden when the site is set to Light Mode */
+:root[data-color-mode="light"] .light--hidden {
+  display: none;
+}
+
+/* Any element with the class "dark--hidden" will be hidden when the site is set to Dark Mode */
+:root[data-color-mode="dark"] .dark--hidden {
+  display: none;
+}
+/* stylelint-enable selector-class-pattern */

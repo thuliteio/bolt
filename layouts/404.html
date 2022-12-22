@@ -1,0 +1,16 @@
+{{ define "main" }}
+<main>
+  <article>
+    <h1>Page not found 😒</h1>
+    <p>The page you are looking for doesn't exist or has been moved.</p>
+  </article>
+  <ul>
+    {{ range (where .Site.RegularPages "Section" "blog") | first 3 -}}
+      <li><a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a></li>
+    {{ end -}}
+  </ul>
+  <p class="text-center">
+    <a href="{{ "/" | absURL }}">View homepage →</a>
+  </p>
+</main>
+{{ end }}

@@ -1,0 +1,9 @@
+<section class="related">
+  <hr>
+  <h2>Related</h2>
+  <ul>
+    {{ range . -}}
+      <li><a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a></li>
+    {{ end -}}
+  </ul>
+</section>

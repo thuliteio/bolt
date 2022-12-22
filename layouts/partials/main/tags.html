@@ -1,0 +1,7 @@
+<div class="tags">
+  <ul class="list-inline">
+    {{ range $index, $tag := .Params.tags -}}
+      <li class="list-inline-item"><a class="button-link" href="{{ "/tags/" | absURL }}{{ . | urlize }}/" role="button">{{ . }}</a></li>
+    {{ end -}}
+  </ul>
+</div>

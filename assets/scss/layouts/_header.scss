@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* stylelint-disable selector-class-pattern */
+
+button.data-color-mode__btn {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-shadow: none;
+  font-size: 1.5rem;
+}
+
+button.data-color-mode__btn:active {
+  box-shadow: none;
+  border: 0;
+}
+/* stylelint-enable selector-class-pattern */

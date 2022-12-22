@@ -1,0 +1,17 @@
+{{ define "main" }}
+<main>
+  <h1>{{ .Title }}</h1>
+  {{ partial "main/meta" . }}
+  {{ .Content }}
+  {{ if .Params.tags -}}
+    {{ partial "main/tags" . }}
+  {{ end -}}
+</main>
+{{ end }}
+
+{{ define "sidebar-footer" }}
+{{ $related := .Site.RegularPages.Related . | first 3 -}}
+{{ with $related -}}
+  {{ partial "sidebar/related" . }}
+{{ end -}}
+{{ end }}

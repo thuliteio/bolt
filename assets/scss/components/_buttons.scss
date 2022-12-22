@@ -1,0 +1,25 @@
+.button-link {
+  text-decoration: none;
+  margin: 0 0.5rem 0 0;
+  cursor: pointer;
+  color: var(--text);
+  background-color: var(--background-main);
+  font-family: inherit;
+  font-size: inherit;
+  padding: 6px 15px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  box-shadow: 0 1px 1.5px rgba(158, 158, 158, 0.6);
+}
+
+.button-link:active {
+  box-shadow: none;
+  border: 1px solid var(--border);
+}
+
+.button-link.disabled {
+  box-shadow: none;
+  border: 1px solid var(--border);
+  cursor: initial;
+  opacity: 0.55;
+}

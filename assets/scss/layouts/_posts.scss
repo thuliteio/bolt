@@ -1,0 +1,31 @@
+.meta {
+  margin: 1rem 0;
+  color: var(--shadow-color);
+}
+
+ul.list-unstyled {
+  list-style-type: none;
+  padding-inline-start: 20px;
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline-item {
+  display: inline-block;
+  margin-bottom: 1.75rem;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.tags:not(body.tags) {
+  margin: 3rem 0 -1.5rem;
+}
+
+.related {
+  margin-top: 3rem;
+}

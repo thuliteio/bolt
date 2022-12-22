@@ -1,0 +1,27 @@
+[[mounts]]
+  source = "node_modules/@hyas/core/assets"
+  target = "assets"
+
+[[mounts]]
+  source = "node_modules/@hyas/core/layouts"
+  target = "layouts"
+
+[[mounts]]
+  source = "node_modules/hyas/assets"
+  target = "assets"
+
+[[mounts]]
+  source = "node_modules/@hyas/seo/layouts"
+  target = "layouts"
+
+[[mounts]]
+  source = "node_modules/@hyas/images/layouts"
+  target = "layouts"
+
+[[mounts]]
+  source = "assets"
+  target = "assets"
+
+[[mounts]]
+  source = "layouts"
+  target = "layouts"
