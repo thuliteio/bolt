@@ -7,16 +7,16 @@
   NPM_VERSION = "8.15.0"
 
 [context.production]
-  command = "npm run build"
+  command = "pnpm build"
 
 [context.deploy-preview]
-  command = "npm run build -- -b $DEPLOY_PRIME_URL"
+  command = "pnpm build -- -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
-  command = "npm run build -- -b $DEPLOY_PRIME_URL"
+  command = "pnpm build -- -b $DEPLOY_PRIME_URL"
 
 [context.next]
-  command = "npm run build"
+  command = "pnpm build"
 
 [context.next.environment]
   HUGO_ENV = "next"
@@ -35,7 +35,7 @@
 
 [dev]
   framework = "#custom"
-  command = "npm run start"
+  command = "pnpm dev"
   targetPort = 1313
   port = 8888
   publish = "public"
@@ -50,7 +50,7 @@
     Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
     X-Content-Type-Options = "nosniff"
     X-XSS-Protection = "1; mode=block"
-    Content-Security-Policy = "default-src 'self'; manifest-src 'self'; connect-src 'self'; font-src 'self'; img-src 'self' data:; script-src 'self' 'nonce-dXNlcj0iaGVsbG8iLGRvbWFpbj0iaGVua3ZlcmxpbmRlLmNvbSIsZG9jdW1lbnQud3JpdGUodXNlcisiQCIrZG9tYWluKTs=' 'sha256-aWZ3y/RxbBYKHXH0z8+8ljrHG1mSBvyzSfxSMjBSaXk='; style-src 'self'"
+    Content-Security-Policy = "default-src 'self'; manifest-src 'self'; connect-src 'self'; font-src 'self'; img-src 'self' data:; script-src 'self' 'nonce-dXNlcj0iaGVsbG8iLGRvbWFpbj0iaGVua3ZlcmxpbmRlLmNvbSIsZG9jdW1lbnQud3JpdGUodXNlcisiQCIrZG9tYWluKTs=' 'sha256-aWZ3y/RxbBYKHXH0z8+8ljrHG1mSBvyzSfxSMjBSaXk=' 'sha256-pGfut8CxcXWzGV34Mlo+zUGXuWG1c4buljedWxWWlks='; style-src 'self'"
     X-Frame-Options = "SAMEORIGIN"
     Referrer-Policy = "strict-origin"
     Feature-Policy = "geolocation 'self'"
