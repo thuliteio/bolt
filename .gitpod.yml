@@ -4,4 +4,8 @@
 
 tasks:
   - init: pnpm install && pnpm run build
-    command: pnpm run dev
+    command: pnpm clean:build && exec-bin node_modules/.bin/hugo/hugo server --gc --disableFastRender --baseUrl $(gp url 1313) --liveReloadPort=443 --appendPort=false --bind=0.0.0.0
+
+ports:
+  - port: 1313
+    onOpen: open-preview
