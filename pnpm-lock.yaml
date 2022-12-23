@@ -713,8 +713,8 @@ packages:
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
 
-  /@babel/plugin-transform-block-scoping/7.20.8_@babel+core@7.20.7:
-    resolution: {integrity: sha512-ztBCIWJvcWJvtxhMqIrItLmGlbxaa/5hl7HlZvV4f9oS08wWn/mEtf5D35qxFp3rTK8KjV9TePEoeal8z02gzA==}
+  /@babel/plugin-transform-block-scoping/7.20.9_@babel+core@7.20.7:
+    resolution: {integrity: sha512-hwZN0kr16UkIF/kR9F9x8gd1kTkQl1vyAF2lkUmlTuCtTKOGLE5blQctuxEeKXwz0dkArQ9RYL8+HLb/75KGMA==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -1086,7 +1086,7 @@ packages:
       '@babel/plugin-transform-arrow-functions': 7.20.7_@babel+core@7.20.7
       '@babel/plugin-transform-async-to-generator': 7.20.7_@babel+core@7.20.7
       '@babel/plugin-transform-block-scoped-functions': 7.18.6_@babel+core@7.20.7
-      '@babel/plugin-transform-block-scoping': 7.20.8_@babel+core@7.20.7
+      '@babel/plugin-transform-block-scoping': 7.20.9_@babel+core@7.20.7
       '@babel/plugin-transform-classes': 7.20.7_@babel+core@7.20.7
       '@babel/plugin-transform-computed-properties': 7.20.7_@babel+core@7.20.7
       '@babel/plugin-transform-destructuring': 7.20.7_@babel+core@7.20.7

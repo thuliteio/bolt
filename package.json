@@ -12,6 +12,7 @@
   "scripts": {
     "predev": "npm run clean:build",
     "dev": "exec-bin node_modules/.bin/hugo/hugo server --gc --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost",
+    "dev:gitpod": "exec-bin node_modules/.bin/hugo/hugo server --gc --disableFastRender --baseUrl $(gp url 1313) --liveReloadPort=443 --appendPort=false --bind=0.0.0.0",
     "create": "exec-bin node_modules/.bin/hugo/hugo new",
     "check": "npm run check:scripts && npm run check:styles && npm run check:markdown",
     "check:scripts": "eslint config",
