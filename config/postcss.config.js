@@ -25,6 +25,9 @@ module.exports = {
         'h2',
         'h3',
         'img-fluid',
+        'type',
+        'dt',
+        'dd',
         ...whitelister([
           './node_modules/@hyas/core/assets/scss/app.scss',
         ]),
