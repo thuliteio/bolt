@@ -6,7 +6,7 @@ lastmod: 2022-12-21T16:50:30+01:00
 draft: false
 weight: 50
 images: []
-tags: ["Markdown", "Cheat sheet"]
+tags: ["Bolt", "Markdown", "Cheat sheet"]
 ---
 
 This Markdown cheat sheet provides a quick overview of all basic Markdown syntax elements. If you need more information about any of these elements, refer to the reference guide for [basic syntax](https://www.markdownguide.org/basic-syntax).

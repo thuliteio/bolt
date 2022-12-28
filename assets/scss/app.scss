@@ -2,8 +2,7 @@
 @import "common/variables";
 
 /** Import boltcss */
-// @import "boltcss/bolt";
-@import "vendor/boltcss/bolt";
+@import "boltcss/bolt";
 
 /** Import theme styles */
 @import "common/global";

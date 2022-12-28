@@ -34,7 +34,7 @@
   "devDependencies": {
     "@hyas/images": "^0.3.2",
     "@hyas/seo": "^0.1.2",
-    "boltcss": "^0.5.0",
+    "boltcss": "^0.5.1",
     "gethyas": "^2.0.2"
   }
 }
