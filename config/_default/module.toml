@@ -19,23 +19,23 @@
   target = "layouts"
 
 [[mounts]]
-  source = "themes/bolt-blog/archetypes"
+  source = "themes/bolt/archetypes"
   target = "archetypes"
 
 [[mounts]]
-  source = "themes/bolt-blog/assets"
+  source = "themes/bolt/assets"
   target = "assets"
 
 [[mounts]]
-  source = "themes/bolt-blog/content"
+  source = "themes/bolt/content"
   target = "content"
 
 [[mounts]]
-  source = "themes/bolt-blog/layouts"
+  source = "themes/bolt/layouts"
   target = "layouts"
 
 [[mounts]]
-  source = "themes/bolt-blog/static"
+  source = "themes/bolt/static"
   target = "static"
 
 [[mounts]]

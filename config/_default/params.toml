@@ -4,7 +4,7 @@
 title = "Bolt"
 titleSeparator = "-"
 titleAddition = "Minimal blog theme"
-description = "Bolt is a minimal blog theme for the Hyas framework."
+description = "Minimal blog theme for Hyas based on Bolt.css"
 
 ## Open Graph
 images = ["hyas.png"]

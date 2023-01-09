@@ -1,42 +1,29 @@
 {
-  "name": "bolt-blog",
+  "name": "@hyas/bolt",
   "version": "0.1.0",
-  "license": "MIT",
-  "engines": {
-    "node": ">=16.17.0",
-    "npm": ">=8.15.0"
-  },
-  "browserslist": [
-    "defaults"
-  ],
+  "description": "Minimal blog theme for Hyas based on Bolt.css",
+  "main": "index.js",
   "scripts": {
-    "predev": "npm run clean:build",
-    "dev": "exec-bin node_modules/.bin/hugo/hugo server --gc --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost",
-    "dev:gitpod": "exec-bin node_modules/.bin/hugo/hugo server --gc --disableFastRender --baseUrl $(gp url 1313) --liveReloadPort=443 --appendPort=false --bind=0.0.0.0",
-    "create": "exec-bin node_modules/.bin/hugo/hugo new",
-    "check": "npm run check:scripts && npm run check:styles && npm run check:markdown",
-    "check:scripts": "eslint config",
-    "check:styles": "stylelint \"assets/scss/**/*.{css,sass,scss}\"",
-    "check:markdown": "markdownlint-cli2 \"*.md\" \"content/**/*.md\"",
-    "fix:markdown": "markdownlint-cli2-fix \"*.md\" \"content/**/*.md\"",
-    "test": "npm run check",
-    "prebuild": "npm run clean:build",
-    "build": "exec-bin node_modules/.bin/hugo/hugo --gc --minify",
-    "preview": "http-server --gzip --brotli --ext=html --cors",
-    "clean": "npm run clean:build && npm run clean:install",
-    "clean:build": "shx rm -rf public resources .hugo_build.lock",
-    "clean:install": "shx rm -rf package-lock.json yarn.lock pnpm-lock.yaml node_modules",
-    "preinfo": "npm version",
-    "info": "npm list",
-    "postinfo": "exec-bin node_modules/.bin/hugo/hugo version",
-    "postinstall": "shx rm -rf node_modules/.bin/hugo && shx mkdir node_modules/.bin/hugo && shx cp node_modules/gethyas/node_modules/.bin/hugo/* node_modules/.bin/hugo",
+    "clean:install": "shx rm -rf package-lock.json node_modules",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gethyas/bolt.git"
+  },
+  "keywords": [
+    "hyas",
+    "hugo"
+  ],
+  "author": "Henk Verlinde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gethyas/bolt/issues"
+  },
+  "homepage": "https://github.com/gethyas/bolt#readme",
   "devDependencies": {
-    "@hyas/images": "^0.3.2",
-    "@hyas/seo": "^0.1.3",
     "auto-changelog": "^2.4.0",
-    "boltcss": "^0.5.1",
-    "gethyas": "^2.0.3"
+    "shx": "^0.3.4"
   }
 }
