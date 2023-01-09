@@ -19,6 +19,26 @@
   target = "layouts"
 
 [[mounts]]
+  source = "node_modules/@hyas/bolt/archetypes"
+  target = "archetypes"
+
+[[mounts]]
+  source = "node_modules/@hyas/bolt/assets"
+  target = "assets"
+
+[[mounts]]
+  source = "node_modules/@hyas/bolt/content"
+  target = "content"
+
+[[mounts]]
+  source = "node_modules/@hyas/bolt/layouts"
+  target = "layouts"
+
+[[mounts]]
+  source = "node_modules/@hyas/bolt/static"
+  target = "static"
+
+[[mounts]]
   source = "themes/bolt/archetypes"
   target = "archetypes"
 
