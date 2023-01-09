@@ -19,9 +19,41 @@
   target = "layouts"
 
 [[mounts]]
+  source = "themes/bolt-blog/archetypes"
+  target = "archetypes"
+
+[[mounts]]
+  source = "themes/bolt-blog/assets"
+  target = "assets"
+
+[[mounts]]
+  source = "themes/bolt-blog/content"
+  target = "content"
+
+[[mounts]]
+  source = "themes/bolt-blog/layouts"
+  target = "layouts"
+
+[[mounts]]
+  source = "themes/bolt-blog/static"
+  target = "static"
+
+[[mounts]]
+  source = "archetypes"
+  target = "archetypes"
+
+[[mounts]]
   source = "assets"
   target = "assets"
 
 [[mounts]]
+  source = "content"
+  target = "content"
+
+[[mounts]]
   source = "layouts"
   target = "layouts"
+
+[[mounts]]
+  source = "static"
+  target = "static"
