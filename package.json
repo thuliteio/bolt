@@ -1,6 +1,6 @@
 {
   "name": "@hyas/bolt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Minimal blog theme for Hyas based on Bolt.css",
   "main": "index.js",
   "scripts": {
@@ -25,5 +25,8 @@
   "devDependencies": {
     "auto-changelog": "^2.4.0",
     "shx": "^0.3.4"
+  },
+  "dependencies": {
+    "boltcss": "^0.5.1"
   }
 }
