@@ -1,6 +1,6 @@
 ---
 title: "Getting Started"
-description: ""
+description: "How to get started with Bolt"
 date: 2022-12-28T15:36:19+01:00
 lastmod: 2022-12-28T15:36:19+01:00
 draft: false
@@ -23,8 +23,8 @@ Bolt is a minimal blog theme for Hyas based on [Bolt.css](https://boltcss.com/).
 
 ## Test drive
 
-- [View demo](https://hyas-themes-bolt.netlify.app/)
-- [Open in Gitpod](https://gitpod.io/#https://github.com/gethyas/themes-bolt)
+- [View demo](https://hyas-bolt.netlify.app/)
+- [Open in Gitpod](https://gitpod.io/#https://github.com/gethyas/examples-bolt)
 
 ## Start your project
 
