@@ -10,6 +10,7 @@ module.exports = {
         './node_modules/@hyas/core/layouts/**/*.html',
         './node_modules/@hyas/seo/layouts/**/*.html',
         './node_modules/@hyas/images/layouts/**/*.html',
+        './node_modules/@hyas/bolt/layouts/**/*.html',
         './layouts/**/*.html',
         './content/**/*.md',
       ],
@@ -25,7 +26,9 @@ module.exports = {
         'h2',
         'h3',
         'img-fluid',
+        'input',
         'type',
+        'checkbox',
         'dt',
         'dd',
         ...whitelister([
