@@ -1,12 +1,18 @@
-# ⚡️Bolt
+![Minimal blog theme based on Bolt.css](.github/assets/banner.png)
 
-Minimal blog theme for Hyas based on [Bolt.css](https://github.com/tbolt/boltcss).
+<p align="center">
+  <br/>
+  Bolt is a minimal blog theme based on <a href="https://github.com/tbolt/boltcss">Bolt.css</a> and  built on <a href="https://gethyas.com/">Hyas</a> &mdash; 
+  <br/>
+  the all-in-one Hugo-npm framework.
+  <br/><br/>
+</p>
 
-[![Open in Gitpod](https://raw.githubusercontent.com/gethyas/bolt/main/static/images/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gethyas/bolt-demo)
+## Demo
 
-![Bolt screenshot](https://raw.githubusercontent.com/gethyas/bolt/main/static/images/bolt-screenshot.png)
+- [bolt.netlify.app](https://bolt.netlify.app/)
 
-## Features
+## Key Features
 
 - Minimal layout
 - HTML elements styling based on [Bolt.css](https://boltcss.com/)
@@ -16,15 +22,39 @@ Minimal blog theme for Hyas based on [Bolt.css](https://github.com/tbolt/boltcss
 - Related posts
 - CSS custom properties (variables)
 
-## Get started
+## Requirements
 
-Run the following command to scaffold a Bolt project with recommended plugins.
+- [Node.js](https://nodejs.org/) — `v16.12.0` or higher
+
+## Install
+
+The recommended way to install the latest version of Bolt is by running the command below:
 
 ```bash
-npm create hyas@latest my-bolt-site -- --template bolt-recommended
+npm create hyas@latest -- --template bolt
 ```
 
-## Resources
+Looking for help? Start with our [Getting Started](https://docs.gethyas.com/start-here/getting-started/) guide.
 
-- [Hyas Docs](https://gethyas.com/docs/start-here/getting-started/)
-- [Hyas Discussions](https://github.com/h-enk/hyas/discussions)
+## Documentation
+
+Visit our [official documentation](https://docs.gethyas.com/).
+
+## Support
+
+Having trouble? Get help in the official [Hyas Discussions](https://github.com/gethyas/hyas/discussions).
+
+## Contributing
+
+New contributors welcome! Check out our [Contributor Guides](https://docs.gethyas.com/contribute/) for help getting started.
+
+## Links
+
+- [License (MIT)](LICENSE)
+- [Code of Conduct](https://github.com/gethyas/.github/blob/main/CODE_OF_CONDUCT.md)
+- [Project Funding](https://github.com/gethyas/.github/blob/main/FUNDING.md)
+- [Website](https://gethyas.com/)
+
+## Sponsors
+
+Hyas is supported by Netlify, Algolia, and several other amazing organizations and inidviduals. [Sponsor Hyas!](https://github.com/gethyas/.github/blob/main/FUNDING.md) ❤️

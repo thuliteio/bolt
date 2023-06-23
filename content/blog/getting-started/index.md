@@ -23,15 +23,15 @@ Bolt is a minimal blog theme for Hyas based on [Bolt.css](https://boltcss.com/).
 
 ## Test drive
 
-- [View demo](https://hyas-bolt.netlify.app/)
-- [Open in Gitpod](https://gitpod.io/#https://github.com/gethyas/examples-bolt)
+- [View demo](https://bolt.netlify.app/)
+- [Open in Gitpod](https://gitpod.io/#https://github.com/gethyas/bolt)
 
 ## Start your project
 
 Run the following command to scaffold a Bolt project with recommended plugins.
 
 ```bash
-npm create hyas@latest my-bolt-site -- --template bolt-recommended
+npm create hyas@latest my-bolt-site -- --template bolt
 ```
 
 ## Next steps
@@ -46,6 +46,6 @@ Customize the CSS variables in `assets/scss/common/_variables.scss`.
 
 ## Resources
 
-- [Hyas Docs](https://gethyas.com/docs/start-here/getting-started/)
+- [Hyas Docs](https://docs.gethyas.com/start-here/getting-started/)
 - [Hyas Discussions](https://github.com/h-enk/hyas/discussions)
-- [Bolt repository](https://github.com/gethyas/themes-bolt)
+- [Bolt repository](https://github.com/gethyas/bolt)

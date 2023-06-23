@@ -1,32 +1,41 @@
 {
-  "name": "@hyas/bolt",
-  "version": "0.1.3",
-  "description": "Minimal blog theme for Hyas based on Bolt.css",
-  "main": "index.js",
-  "scripts": {
-    "clean:install": "shx rm -rf package-lock.json node_modules",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "version": "auto-changelog -p && git add CHANGELOG.md"
-  },
+  "name": "bolt",
+  "version": "1.0.0",
+  "description": "Minimal blog theme based on Bolt.css",
+  "author": "Hyas",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gethyas/bolt.git"
+    "url": "https://github.com/gethyas/bolt.git"
   },
-  "keywords": [
-    "hyas",
-    "hugo"
-  ],
-  "author": "Henk Verlinde",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gethyas/bolt/issues"
+  "scripts": {
+    "dev": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost --noHTTPCache",
+    "dev:drafts": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost --noHTTPCache --buildDrafts",
+    "create": "exec-bin node_modules/.bin/hugo/hugo new",
+    "lint": "npm run lint:markdown",
+    "lint:scripts": "eslint --cache themes/doks/assets/js",
+    "lint:styles": "stylelint --cache \"themes/doks/assets/scss/**/*.{css,sass,scss}\"",
+    "lint:markdown": "markdownlint-cli2 \"*.md\" \"content/**/*.md\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "exec-bin node_modules/.bin/hugo/hugo --minify",
+    "preview": "http-server --gzip --brotli --ext=html --cors",
+    "clean": "npm run clean:build && npm run clean:lint && npm run clean:install",
+    "clean:build": "shx rm -rf public resources .hugo_build.lock",
+    "clean:install": "shx rm -rf node_modules package-lock.json yarn.lock pnpm-lock.yaml",
+    "clean:lint": "shx rm -rf .eslintcache .stylelintcache",
+    "preinfo": "npm version",
+    "info": "npm list",
+    "postinfo": "exec-bin node_modules/.bin/hugo/hugo version",
+    "postinstall": "shx rm -rf node_modules/.bin/hugo && shx mkdir node_modules/.bin/hugo && shx cp node_modules/gethyas/node_modules/.bin/hugo/* node_modules/.bin/hugo",
+    "version": "auto-changelog -p && git add CHANGELOG.md"
   },
-  "homepage": "https://github.com/gethyas/bolt#readme",
   "devDependencies": {
-    "auto-changelog": "^2.4.0",
-    "shx": "^0.3.4"
+    "@hyas/bolt-core": "^1.0.0",
+    "auto-changelog": "^2.4.0"
   },
-  "dependencies": {
-    "boltcss": "^0.5.1"
-  }
+  "engines": {
+    "node": ">=16.12.0",
+    "pnpm": ">=8.6.2"
+  },
+  "packageManager": "pnpm@8.6.2"
 }
