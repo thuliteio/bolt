@@ -19,20 +19,26 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v3
+
+    - name: Setup pnpm
+      uses: pnpm/action-setup@v2
+      with:
+        version: 8
     
     - name: Setup node@${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
+        cache: 'pnpm'
 
     - name: Install dependencies
-      run: pnpm run install
+      run: pnpm install
 
     - name: Run linters
-      run: pnpm run lint --if-present
+      run: pnpm lint --if-present
 
     - name: Build site
-      run: pnpm run build
+      run: pnpm build
 
     # - name: Run tests
-    #   run: pnpm run test --if-present
+    #   run: pnpm test --if-present
