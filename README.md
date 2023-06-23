@@ -10,7 +10,7 @@
 
 ## Demo
 
-- [bolt.netlify.app](https://bolt.netlify.app/)
+- [bolt-hyas.netlify.app](https://bolt-hyas.netlify.app/)
 
 ## Key Features
 
