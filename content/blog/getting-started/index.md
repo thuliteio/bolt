@@ -9,7 +9,7 @@ images: []
 tags: ["Bolt", "Guides"]
 ---
 
-Bolt is a minimal blog theme for Hyas based on [Bolt.css](https://boltcss.com/).
+Bolt is a minimal blog theme based on [Bolt.css](https://boltcss.com/).
 
 ## Features
 
@@ -23,7 +23,7 @@ Bolt is a minimal blog theme for Hyas based on [Bolt.css](https://boltcss.com/).
 
 ## Test drive
 
-- [View demo](https://bolt.netlify.app/)
+- [View demo](https://bolt-hyas.netlify.app/)
 - [Open in Gitpod](https://gitpod.io/#https://github.com/gethyas/bolt)
 
 ## Start your project
