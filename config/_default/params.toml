@@ -1,0 +1,49 @@
+# Hugo
+title = "Bolt"
+description = "Minimal blog theme for Hyas based on Bolt.css"
+images = ["cover.png"]
+
+# Debug
+[render_hooks.image]
+  errorLevel = 'ignore' # ignore (default), warning, or error (fails the build)
+
+[render_hooks.link]
+  errorLevel = 'ignore' # ignore (default), warning, or error (fails the build)
+  highlightBroken = false # true or false (default)
+
+# Images (@hyas/images)
+[hyas_images]
+  [hyas_images.landscape]
+    normalize = "1360x765" # "1600x900" (default)
+    lqip = "16x9" # "16x9" (default)
+    widths = [480, 640, 800, 1024]
+  [hyas_images.portrait]
+    normalize = "765x1360" # "900x1600" (default)
+    lqip = "9x16" # "9x16" (default)
+    widths = [480, 640, 800, 1024]
+
+# Inline SVG (@hyas/inline-svg)
+[inline_svg]
+  iconSetDir = "tabler-icons" # "tabler-icons" (default)
+
+# SEO (@hyas/seo)
+[seo]
+  [seo.title]
+    separator = " | "
+    suffix = ""
+  [seo.favicons]
+    sizes = []
+    icon = "favicon.png" # favicon.png (default)
+    svgIcon = "favicon.svg" # favicon.svg (default)
+    maskIcon = "mask-icon.svg" # mask-icon.svg (default)
+    maskIconColor = "white" # white (default)
+  [seo.schemas]
+    type = "Organization" # Organization (default) or Person
+    logo = "favicon-512x512.png" # Logo of Organization — favicon-512x512.png (default)
+    name = "Hyas" # Name of Organization or Person
+    sameAs = [] # E.g. ["https://github.com/gethyas/hyas", "https://fosstodon.org/@hyas"]
+    images = ["cover.png"] # ["cover.png"] (default)
+    article = [] # Article sections
+    newsArticle = [] # NewsArticle sections
+    blogPosting = ["blog"] # BlogPosting sections
+    product = [] # Product sections

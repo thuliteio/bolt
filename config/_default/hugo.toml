@@ -5,7 +5,7 @@ disableAliases = true
 disableHugoGeneratorInject = true
 # disableKinds = ["taxonomy", "term"]
 enableEmoji = true
-enableGitInfo = false
+enableGitInfo = true
 enableRobotsTXT = true
 languageCode = "en-US"
 paginate = 10
@@ -13,6 +13,9 @@ rssLimit = 10
 summarylength = 20 # 70 (default)
 
 copyRight = "Copyright (c) 2023 Hyas"
+
+[build.buildStats]
+  enable = true
 
 [social]
   twitter = "gethyas"
@@ -51,8 +54,8 @@ copyRight = "Copyright (c) 2023 Hyas"
     weight = 10
 
 [imaging]
-  anchor = 'Smart'
-  bgColor = '#fff'
-  hint = 'photo'
-  quality = 90
-  resampleFilter = 'Lanczos'
+  anchor = "Smart"
+  bgColor = "#ffffff"
+  hint = "photo"
+  quality = 75
+  resampleFilter = "Box"

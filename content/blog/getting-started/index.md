@@ -7,6 +7,11 @@ draft: false
 weight: 50
 images: []
 tags: ["Bolt", "Guides"]
+seo:
+  title: "" # custom title (optional)
+  description: "" # custom description (recommended)
+  canonical: "" # custom canonical URL (optional)
+  noindex: false # false (default) or true
 ---
 
 Bolt is a minimal blog theme based on [Bolt.css](https://boltcss.com/).

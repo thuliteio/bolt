@@ -6,36 +6,39 @@ module.exports = {
   plugins: [
     autoprefixer(),
     purgecss({
-      content: [
-        './node_modules/@hyas/core/layouts/**/*.html',
-        './node_modules/@hyas/seo/layouts/**/*.html',
-        './node_modules/@hyas/images/layouts/**/*.html',
-        './node_modules/@hyas/bolt-core/layouts/**/*.html',
-        './layouts/**/*.html',
-        './content/**/*.md',
+      content: [ './hugo_stats.json' ],
+      extractors: [
+        {
+          extractor: (content) => {
+            const els = JSON.parse(content).htmlElements;
+            return els.tags.concat(els.classes, els.ids);
+          },
+          extensions: ['json'],
+        },
+      ],
+      dynamicAttributes: [
+        'aria-expanded',
+        'id',
+        'size',
+        'type',
       ],
       safelist: [
-        'lazyloaded',
-        'table',
-        'thead',
-        'tbody',
-        'tr',
-        'th',
-        'td',
-        'h1',
-        'h2',
-        'h3',
+        'active',
+        'disabled',
+        'hidden',
+        'show',
         'img-fluid',
-        'lazyload',
         'blur-up',
+        'lazyloaded',
         'input',
         'type',
         'checkbox',
         'dt',
         'dd',
         ...whitelister([
-          './node_modules/@hyas/core/assets/scss/app.scss',
-          './node_modules/@hyas/bolt-core/assets/scss/components/_images.scss',
+          './assets/scss/**/*.css',
+          './assets/scss/**/*.scss',
+          './node_modules/@hyas/bolt-core/assets/scss/**/*.scss',
         ]),
       ],
     }),
