@@ -3,6 +3,9 @@ title = "Bolt"
 description = "Minimal blog theme for Hyas based on Bolt.css"
 images = ["cover.png"]
 
+[social]
+  twitter = "gethyas"
+
 # Debug
 [render_hooks.image]
   errorLevel = 'ignore' # ignore (default), warning, or error (fails the build)
@@ -21,10 +24,6 @@ images = ["cover.png"]
     normalize = "765x1360" # "900x1600" (default)
     lqip = "9x16" # "9x16" (default)
     widths = [480, 640, 800, 1024]
-
-# Inline SVG (@hyas/inline-svg)
-[inline_svg]
-  iconSetDir = "tabler-icons" # "tabler-icons" (default)
 
 # SEO (@hyas/seo)
 [seo]

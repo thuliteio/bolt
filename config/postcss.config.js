@@ -36,7 +36,6 @@ module.exports = {
         'dt',
         'dd',
         ...whitelister([
-          './assets/scss/**/*.css',
           './assets/scss/**/*.scss',
           './node_modules/@hyas/bolt-core/assets/scss/**/*.scss',
         ]),

@@ -12,13 +12,10 @@ paginate = 10
 rssLimit = 10
 summarylength = 20 # 70 (default)
 
-copyRight = "Copyright (c) 2023 Hyas"
+copyRight = "Copyright (c) 2020-2024 Hyas"
 
 [build.buildStats]
   enable = true
-
-[social]
-  twitter = "gethyas"
 
 [outputs]
   home = ["HTML", "RSS"]
@@ -54,8 +51,8 @@ copyRight = "Copyright (c) 2023 Hyas"
     weight = 10
 
 [imaging]
-  anchor = "Smart"
+  anchor = "Center"
   bgColor = "#ffffff"
   hint = "photo"
-  quality = 75
-  resampleFilter = "Box"
+  quality = 85
+  resampleFilter = "Lanczos"
