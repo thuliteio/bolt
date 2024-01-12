@@ -5,7 +5,7 @@ disableAliases = true
 disableHugoGeneratorInject = true
 # disableKinds = ["taxonomy", "term"]
 enableEmoji = true
-enableGitInfo = true
+enableGitInfo = false
 enableRobotsTXT = true
 languageCode = "en-US"
 paginate = 10
@@ -44,11 +44,11 @@ copyRight = "Copyright (c) 2020-2024 Hyas"
   includeNewer = true
   toLower = false
     [[related.indices]]
-    name = "tags"
-    weight = 100
+      name = "tags"
+      weight = 100
     [[related.indices]]
-    name = "date"
-    weight = 10
+      name = "date"
+      weight = 10
 
 [imaging]
   anchor = "Center"
