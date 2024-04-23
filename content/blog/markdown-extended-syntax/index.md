@@ -19,16 +19,16 @@ This Markdown cheat sheet provides a quick overview of all extended Markdown syn
 ## Table
 
 ```md
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+| Syntax    | Description |
+| --------- | ----------- |
+| Header    | Title       |
+| Paragraph | Text        |
 ```
 
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+| Syntax    | Description |
+| --------- | ----------- |
+| Header    | Title       |
+| Paragraph | Text        |
 
 ## Fenced Code Block
 
@@ -98,13 +98,13 @@ term
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
-{.list-unstyled}
+      {.list-unstyled}
 ```
 
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
-{.list-unstyled}
+      {.list-unstyled}
 
 ## Emoji
 
