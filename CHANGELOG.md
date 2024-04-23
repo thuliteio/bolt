@@ -1,5 +1,11 @@
 # bolt
 
+## 1.3.2
+
+### Patch Changes
+
+- [#6](https://github.com/gethyas/bolt/pull/6) [`29c9a1d`](https://github.com/gethyas/bolt/commit/29c9a1d2ba65501f479c54325572a621c5ed7867) Thanks [@h-enk](https://github.com/h-enk)! - Install prettier and vite as devDependencies
+
 ## 1.3.1
 
 ### Patch Changes
