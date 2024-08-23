@@ -1,5 +1,11 @@
 # bolt
 
+## 1.4.0
+
+### Minor Changes
+
+- [#8](https://github.com/thuliteio/bolt/pull/8) [`9949e02`](https://github.com/thuliteio/bolt/commit/9949e027909ebd06e9392853b7fd6341f509c16d) Thanks [@h-enk](https://github.com/h-enk)! - Update for migration from Hyas to Thulite
+
 ## 1.3.2
 
 ### Patch Changes
