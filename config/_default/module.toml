@@ -1,7 +1,7 @@
 # mounts
 ## archetypes
 [[mounts]]
-  source = "node_modules/@hyas/bolt-core/archetypes"
+  source = "node_modules/@thulite/bolt-core/archetypes"
   target = "archetypes"
 
 [[mounts]]
@@ -10,20 +10,20 @@
 
 ## assets
 [[mounts]]
-  source = "node_modules/@hyas/core/assets"
+  source = "node_modules/@thulite/core/assets"
   target = "assets"
 
 [[mounts]]
-  source = "node_modules/gethyas/assets"
+  source = "node_modules/thulite/assets"
   target = "assets"
 
 [[mounts]]
-  source = "node_modules/@hyas/images/assets"
+  source = "node_modules/@thulite/images/assets"
   target = "assets"
   excludeFiles = "/scss/**.scss"
 
 [[mounts]]
-  source = "node_modules/@hyas/bolt-core/assets"
+  source = "node_modules/@thulite/bolt-core/assets"
   target = "assets"
 
 [[mounts]]
@@ -47,19 +47,19 @@
 
 ## layouts
 [[mounts]]
-  source = "node_modules/@hyas/core/layouts"
+  source = "node_modules/@thulite/core/layouts"
   target = "layouts"
 
 [[mounts]]
-  source = "node_modules/@hyas/seo/layouts"
+  source = "node_modules/@thulite/seo/layouts"
   target = "layouts"
 
 [[mounts]]
-  source = "node_modules/@hyas/images/layouts"
+  source = "node_modules/@thulite/images/layouts"
   target = "layouts"
 
 [[mounts]]
-  source = "node_modules/@hyas/bolt-core/layouts"
+  source = "node_modules/@thulite/bolt-core/layouts"
   target = "layouts"
 
 [[mounts]]

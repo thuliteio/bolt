@@ -28,22 +28,22 @@ Bolt is a minimal blog theme based on [Bolt.css](https://boltcss.com/).
 
 ## Test drive
 
-- [View demo](https://bolt-hyas.netlify.app/)
-- [Open in Gitpod](https://gitpod.io/#https://github.com/gethyas/bolt)
+- [View demo](https://bolt-thulite.netlify.app/)
+- [Open in Gitpod](https://gitpod.io/#https://github.com/thuliteio/bolt)
 
 ## Start your project
 
 Run the following command to scaffold a Bolt project with recommended plugins.
 
 ```bash
-npm create hyas@latest my-bolt-site -- --template bolt
+npm create thulite@latest my-bolt-site -- --template bolt
 ```
 
 ## Next steps
 
-- [Add a post](https://gethyas.com/docs/basics/pages/) to your Bolt site.
-- Read about Hyas' [project structure](https://gethyas.com/docs/basics/project-structure/).
-- Learn about Hyas' [commands](https://gethyas.com/docs/reference/commands/).
+- [Add a post](https://docs.thulite.io/basics/pages/) to your Bolt site.
+- Read about Thulite' [project structure](https://docs.thulite.io/basics/project-structure/).
+- Learn about Thulite' [commands](https://docs.thulite.io/basics/commands/).
 
 ### Customize
 
@@ -51,6 +51,6 @@ Customize the CSS variables in `assets/scss/common/_variables.scss`.
 
 ## Resources
 
-- [Hyas Docs](https://docs.gethyas.com/start-here/getting-started/)
-- [Hyas Discussions](https://github.com/h-enk/hyas/discussions)
-- [Bolt repository](https://github.com/gethyas/bolt)
+- [Thulite Docs](https://docs.thulite.io/getting-started/)
+- [Thulite Discussions](https://github.com/orgs/thuliteio/discussions)
+- [Bolt repository](https://github.com/thuliteio/bolt)

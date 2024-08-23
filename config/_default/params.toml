@@ -1,10 +1,10 @@
 # Hugo
 title = "Bolt"
-description = "Minimal blog theme for Hyas based on Bolt.css"
+description = "Minimal blog theme for Thulite based on Bolt.css"
 images = ["cover.png"]
 
 [social]
-  twitter = "gethyas"
+  twitter = "thuliteio"
 
 # Debug
 [render_hooks.image]
@@ -14,18 +14,18 @@ images = ["cover.png"]
   errorLevel = 'ignore' # ignore (default), warning, or error (fails the build)
   highlightBroken = false # true or false (default)
 
-# Images (@hyas/images)
-[hyas_images]
-  [hyas_images.landscape]
+# Images (@thulite/images)
+[thulite_images]
+  [thulite_images.landscape]
     normalize = "1360x765" # "1600x900" (default)
     lqip = "16x9" # "16x9" (default)
     widths = [480, 640, 800, 1024]
-  [hyas_images.portrait]
+  [thulite_images.portrait]
     normalize = "765x1360" # "900x1600" (default)
     lqip = "9x16" # "9x16" (default)
     widths = [480, 640, 800, 1024]
 
-# SEO (@hyas/seo)
+# SEO (@thulite/seo)
 [seo]
   [seo.title]
     separator = " | "
@@ -39,8 +39,8 @@ images = ["cover.png"]
   [seo.schemas]
     type = "Organization" # Organization (default) or Person
     logo = "favicon-512x512.png" # Logo of Organization — favicon-512x512.png (default)
-    name = "Hyas" # Name of Organization or Person
-    sameAs = [] # E.g. ["https://github.com/gethyas/hyas", "https://fosstodon.org/@hyas"]
+    name = "Thulite" # Name of Organization or Person
+    sameAs = [] # E.g. ["https://github.com/thuliteio/thulite", "https://fosstodon.org/@thulite"]
     images = ["cover.png"] # ["cover.png"] (default)
     article = [] # Article sections
     newsArticle = [] # NewsArticle sections

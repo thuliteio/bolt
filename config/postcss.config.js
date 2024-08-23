@@ -17,7 +17,7 @@ module.exports = {
                 }
             ],
             dynamicAttributes: ['aria-expanded', 'id', 'size', 'type'],
-            safelist: ['active', 'disabled', 'hidden', 'show', 'img-fluid', 'blur-up', 'lazyloaded', 'input', 'type', 'checkbox', 'dt', 'dd', ...whitelister(['./assets/scss/**/*.scss', './node_modules/@hyas/bolt-core/assets/scss/**/*.scss'])]
+            safelist: ['active', 'disabled', 'hidden', 'show', 'img-fluid', 'blur-up', 'lazyloaded', 'input', 'type', 'checkbox', 'dt', 'dd', ...whitelister(['./assets/scss/**/*.scss', './node_modules/@thulite/bolt-core/assets/scss/**/*.scss'])]
         })
     ]
 };
