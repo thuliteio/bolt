@@ -1,5 +1,11 @@
 # bolt
 
+## 1.5.0
+
+### Minor Changes
+
+- [#11](https://github.com/thuliteio/bolt/pull/11) [`ab6830b`](https://github.com/thuliteio/bolt/commit/ab6830b0a7935c7150a0f1e638993326a9723987) Thanks [@h-enk](https://github.com/h-enk)! - Update for new template system in Hugo v0.146.0
+
 ## 1.4.0
 
 ### Minor Changes
