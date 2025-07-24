@@ -98,13 +98,13 @@ term
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
-      {.list-unstyled}
+{.list-unstyled}
 ```
 
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
-      {.list-unstyled}
+{.list-unstyled}
 
 ## Emoji
 

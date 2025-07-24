@@ -64,6 +64,7 @@
       "list",
       "list-inline",
       "list-inline-item",
+      "list-unstyled",
       "meta",
       "related",
       "section",

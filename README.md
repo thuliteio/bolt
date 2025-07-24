@@ -25,7 +25,7 @@
 ## Requirements
 
 - [Node.js](https://nodejs.org/) — `v20.11.0` or higher
-- [Hugo extended](https://gohugo.io/installation/) - `v0.131.0` or higher
+- [Hugo extended](https://gohugo.io/installation/) - `v0.148.1` or higher
 
 ## Install
 
