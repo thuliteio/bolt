@@ -1,5 +1,11 @@
 # bolt
 
+## 1.5.1
+
+### Patch Changes
+
+- [#15](https://github.com/thuliteio/bolt/pull/15) [`2daaaaf`](https://github.com/thuliteio/bolt/commit/2daaaaf3247d59b9fc3b9315e8602ff111b7e1c2) Thanks [@h-enk](https://github.com/h-enk)! - Update for create-thulite v2.0.2
+
 ## 1.5.0
 
 ### Minor Changes
