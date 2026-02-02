@@ -24,8 +24,8 @@
 
 ## Requirements
 
-- [Node.js](https://nodejs.org/) — `v20.11.0` or higher
-- [Hugo extended](https://gohugo.io/installation/) - `v0.148.1` or higher
+- Node.js – [latest LTS version](https://nodejs.org/en/download)
+- Hugo – [latest extended version](https://github.com/gohugoio/hugo/releases/latest)
 
 ## Install
 
@@ -58,4 +58,5 @@ New contributors welcome! Check out our [Contributor Guides](https://docs.thulit
 
 ## Sponsors
 
-Thulite is free, open source software made possible by by Netlify, Algolia, and several other amazing organizations and inidviduals. [Sponsor Thulite](https://github.com/thuliteio/.github/blob/main/FUNDING.md) ❤️
+
+Thulite is free and open-source, thanks to our amazing sponsors. Help keep Thulite sustainable by supporting maintenance, documentation, and long-term development. [Sponsor Thulite](https://github.com/sponsors/thuliteio) ❤️
