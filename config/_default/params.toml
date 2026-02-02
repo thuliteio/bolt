@@ -1,7 +1,7 @@
 # Hugo
 title = "Bolt"
 description = "Minimal blog theme for Thulite based on Bolt.css"
-images = ["cover.jpg"]
+images = ["cover.png"]
 
 [social]
   twitter = "thuliteio"
@@ -32,20 +32,17 @@ images = ["cover.jpg"]
 # SEO (@thulite/seo)
 [seo]
   [seo.title]
-    separator = " | "
-    suffix = ""
+    separator = "" # "|" (default)
+    suffix = "" # title hugo.toml (default)
   [seo.favicons]
-    sizes = []
     icon = "favicon.png" # favicon.png (default)
     svgIcon = "favicon.svg" # favicon.svg (default)
-    maskIcon = "mask-icon.svg" # mask-icon.svg (default)
-    maskIconColor = "white" # white (default)
   [seo.schemas]
     type = "Organization" # Organization (default) or Person
     logo = "favicon-512x512.png" # Logo of Organization — favicon-512x512.png (default)
     name = "Thulite" # Name of Organization or Person
     sameAs = [] # E.g. ["https://github.com/thuliteio/thulite", "https://fosstodon.org/@thulite"]
-    images = ["cover.jpg"] # ["cover.png"] (default)
+    images = ["cover.png"] # ["cover.png"] (default)
     article = [] # Article sections
     newsArticle = [] # NewsArticle sections
     blogPosting = ["blog"] # BlogPosting sections
