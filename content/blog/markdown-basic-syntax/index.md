@@ -111,7 +111,3 @@ _italicized text_
 ```
 
 ![alt text](boxed-water-is-better-5Lw1U5BIumE-unsplash.jpg)
-
-<!--
-{{< img process="fill 800x450" src="images/paul-pascale-FI9QMIVMdCM-unsplash.jpg" alt="Grey and white tabby cat" >}}
--->
