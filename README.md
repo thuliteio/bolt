@@ -10,7 +10,7 @@
 
 ## Demo
 
-- [bolt-thulite.netlify.app](https://bolt-thulite.netlify.app/)
+- [bolt.thulite.io](https://bolt.thulite.io/)
 
 ## Key Features
 
