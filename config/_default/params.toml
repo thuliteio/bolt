@@ -34,6 +34,8 @@ images = ["cover.png"]
   [seo.title]
     separator = "" # "|" (default)
     suffix = "" # title hugo.toml (default)
+  [seo.description]
+    summaryFallback = "" # "" (default)
   [seo.favicons]
     icon = "favicon.png" # favicon.png (default)
     svgIcon = "favicon.svg" # favicon.svg (default)
