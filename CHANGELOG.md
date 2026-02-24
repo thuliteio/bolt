@@ -1,5 +1,11 @@
 # bolt
 
+## 1.5.2
+
+### Patch Changes
+
+- [#17](https://github.com/thuliteio/bolt/pull/17) [`404b89a`](https://github.com/thuliteio/bolt/commit/404b89a607848290e24739aba07a35f6b8914175) Thanks [@h-enk](https://github.com/h-enk)! - Update for security fix, Netlify fix, Hugo v0.156.0, and update dependencies
+
 ## 1.5.1
 
 ### Patch Changes
