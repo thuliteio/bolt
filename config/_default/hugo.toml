@@ -20,7 +20,7 @@ copyRight = "Copyright (c) 2020-2026 Thulite"
   home = ["HTML", "RSS"]
 
 [caches]
-  [caches.getjson]
+  [caches.getresource]
     dir = ":cacheDir/:project"
     maxAge = "30m"
 
