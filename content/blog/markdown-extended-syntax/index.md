@@ -1,6 +1,6 @@
 ---
 title: "Markdown Extended Syntax"
-description: "This Markdown cheat sheet provides a quick overview of all extended Markdown syntax elements."
+description: "Use this Markdown cheat sheet to learn extended syntax for tables, code blocks, footnotes, custom heading IDs, task lists, emoji, highlights, and more."
 date: 2022-12-21T18:56:30+01:00
 lastmod: 2022-12-21T18:56:30+01:00
 draft: false
@@ -14,7 +14,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-This Markdown cheat sheet provides a quick overview of all extended Markdown syntax elements. If you need more information about any of these elements, refer to the reference guide for [extended syntax](https://www.markdownguide.org/extended-syntax).
+This Markdown cheat sheet provides a quick overview of all extended Markdown syntax elements. If you need more information about any of these elements, refer to the reference guide for [extended syntax](https://www.markdownguide.org/extended-syntax/).
 
 ## Table
 
@@ -98,13 +98,13 @@ term
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
-{.list-unstyled}
+      {.list-unstyled}
 ```
 
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
-{.list-unstyled}
+      {.list-unstyled}
 
 ## Emoji
 

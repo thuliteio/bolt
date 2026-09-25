@@ -1,6 +1,6 @@
 ---
 title: "Bolt"
-description: "Minimal blog theme for Thulite based on Bolt.css"
+description: "Bolt is a minimal blog theme for Thulite based on Bolt.css, with a focused layout, dark mode, tags, reading time, and related posts."
 date: 2020-04-17T12:18:10+00:00
 lastmod: 2020-04-17T12:18:10+00:00
 draft: false

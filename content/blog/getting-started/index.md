@@ -1,6 +1,6 @@
 ---
 title: "Getting Started"
-description: "How to get started with Bolt"
+description: "Learn how to get started with Bolt, a minimal Thulite blog theme featuring dark mode, tags, reading time, related posts, and flexible CSS variables."
 date: 2022-12-28T15:36:19+01:00
 lastmod: 2022-12-28T15:36:19+01:00
 draft: false
@@ -28,8 +28,7 @@ Bolt is a minimal blog theme based on [Bolt.css](https://boltcss.com/).
 
 ## Test drive
 
-- [View demo](https://bolt-thulite.netlify.app/)
-- [Open in Gitpod](https://gitpod.io/#https://github.com/thuliteio/bolt)
+- [View demo](https://bolt.thulite.io/)
 
 ## Start your project
 
@@ -41,9 +40,9 @@ npm create thulite@latest my-bolt-site -- --template bolt
 
 ## Next steps
 
-- [Add a post](https://docs.thulite.io/basics/pages/) to your Bolt site.
-- Read about Thulite' [project structure](https://docs.thulite.io/basics/project-structure/).
-- Learn about Thulite' [commands](https://docs.thulite.io/basics/commands/).
+- [Add a post](https://docs.thulite.io/thulite/basics/pages/) to your Bolt site.
+- Read about Thulite' [project structure](https://docs.thulite.io/thulite/basics/project-structure/).
+- Learn about Thulite' [commands](https://docs.thulite.io/thulite/reference/commands/).
 
 ### Customize
 
@@ -51,6 +50,6 @@ Customize the CSS variables in `assets/scss/common/_variables.scss`.
 
 ## Resources
 
-- [Thulite Docs](https://docs.thulite.io/getting-started/)
+- [Thulite Docs](https://docs.thulite.io)
 - [Thulite Discussions](https://github.com/orgs/thuliteio/discussions)
 - [Bolt repository](https://github.com/thuliteio/bolt)

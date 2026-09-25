@@ -1,6 +1,6 @@
 ---
 title: "Markdown Basic Syntax"
-description: "This Markdown cheat sheet provides a quick overview of all basic Markdown syntax elements."
+description: "Use this Markdown cheat sheet to review essential syntax for headings, emphasis, lists, code, links, images, blockquotes, and other common elements."
 date: 2022-12-21T16:50:30+01:00
 lastmod: 2022-12-21T16:50:30+01:00
 draft: false
@@ -14,7 +14,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-This Markdown cheat sheet provides a quick overview of all basic Markdown syntax elements. If you need more information about any of these elements, refer to the reference guide for [basic syntax](https://www.markdownguide.org/basic-syntax).
+This Markdown cheat sheet provides a quick overview of all basic Markdown syntax elements. If you need more information about any of these elements, refer to the reference guide for [basic syntax](https://www.markdownguide.org/basic-syntax/).
 
 ## Heading
 
