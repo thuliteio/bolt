@@ -1,5 +1,36 @@
 # bolt
 
+## 2.0.0
+
+### Major Changes
+
+- [#23](https://github.com/thuliteio/bolt/pull/23) [`d7735a0`](https://github.com/thuliteio/bolt/commit/d7735a0ad95e08731b4b7004621ee650fe7a4ec9) Thanks [@h-enk](https://github.com/h-enk)! - refactor: migrate to Dart Sass and modernize build pipelines
+
+  BREAKING CHANGE: LibSass support has been removed. Dart Sass is now required.
+
+  **WHAT changed:**
+  - Replaced LibSass with Dart Sass for CSS compilation
+  - All asset build pipelines now follow Hugo's official best practices
+  - JavaScript build aligned with Hugo's esbuild/Babel patterns
+
+  **WHY:**
+  - LibSass has been deprecated by the Sass team since 2020
+  - Dart Sass provides modern Sass language features and better maintenance
+  - Hugo's official patterns ensure future compatibility and reliability
+
+  **HOW to upgrade:**
+  Install Dart Sass in your environment:
+  - macOS (Homebrew): `brew install sass/sass/sass`
+  - Linux (Snap): `sudo snap install dart-sass`
+  - Windows (Scoop): `scoop install sass`
+  - Or: npm install -g sass
+
+  Other improvements:
+  - Enhanced Prettier, ESLint, and VS Code configuration
+  - Expanded Dependabot automation and dependency management
+  - Improved error handling and performance in JavaScript modules
+  - Modern CSS reset and better cross-browser consistency
+
 ## 1.5.2
 
 ### Patch Changes
