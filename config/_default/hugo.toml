@@ -6,53 +6,52 @@ disableHugoGeneratorInject = true
 enableEmoji = true
 enableGitInfo = false
 enableRobotsTXT = true
-languageCode = "en-US"
+locale = "en-US"
 pagerSize = 10
 rssLimit = 10
-summarylength = 20 # 70 (default)
+summarylength = 20     # 70 (default)
 
 copyRight = "Copyright (c) 2020-2026 Thulite"
 
 [build.buildStats]
-  enable = true
+enable = true
 
 [outputs]
-  home = ["HTML", "RSS"]
+home = ["HTML", "RSS"]
 
 [caches]
-  [caches.getresource]
-    dir = ":cacheDir/:project"
-    maxAge = "30m"
+[caches.getresource]
+dir = ":cacheDir/:project"
+maxAge = "30m"
+[caches.images]
+dir = ':cacheDir/images'
 
 [sitemap]
-  changefreq = "monthly"
-  filename = "sitemap.xml"
-  priority = 0.5
+changefreq = "monthly"
+filename = "sitemap.xml"
+priority = 0.5
 
 [taxonomies]
-  tag = "tags"
+tag = "tags"
 
 [permalinks]
-  blog = "/:title/"
+blog = "/:title/"
 
 [minify.tdewolff.html]
-  keepComments = true # If set to false, build signatures are removed
-  keepWhitespace = false
+keepComments = true    # If set to false, build signatures are removed
+keepWhitespace = false
 
 [related]
-  threshold = 80
-  includeNewer = true
-  toLower = false
-    [[related.indices]]
-      name = "tags"
-      weight = 100
-    [[related.indices]]
-      name = "date"
-      weight = 10
+threshold = 80
+includeNewer = true
+toLower = false
+[[related.indices]]
+name = "tags"
+weight = 100
+[[related.indices]]
+name = "date"
+weight = 10
 
 [imaging]
-  anchor = "Center"
-  bgColor = "#ffffff"
-  hint = "photo"
-  quality = 85
-  resampleFilter = "Lanczos"
+anchor = "Center"
+resampleFilter = "Lanczos"

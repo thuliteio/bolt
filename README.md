@@ -12,7 +12,7 @@
 
 - [bolt.thulite.io](https://bolt.thulite.io/)
 
-## Key Features
+## Features
 
 - Minimal layout
 - HTML elements styling based on [Bolt.css](https://boltcss.com/)
@@ -22,32 +22,29 @@
 - Related posts
 - CSS custom properties (variables)
 
-## Requirements
+## Prerequisites
 
-- Node.js – [latest LTS version](https://nodejs.org/en/download)
-- Hugo – [latest extended version](https://github.com/gohugoio/hugo/releases/latest)
+- [Hugo](https://github.com/gohugoio/hugo/releases/latest) (latest extended or extended/deploy edition)
+- [Dart Sass](https://github.com/sass/dart-sass/releases/latest) (latest version)
+- [Node.js/npm](https://nodejs.org/en/download) (latest LTS version)
 
-## Install
+## Installation
 
-The recommended way to install the latest version of Bolt is by running the command below:
+The **recommended** way to install the latest version of Bolt is by running the command below:
 
 ```bash
 npm create thulite@latest -- --template bolt
 ```
 
-Looking for help? Start with our [Getting Started](https://docs.thulite.io/getting-started/) guide.
+Looking for help? Start with our [Installation](https://docs.thulite.io/thulite/start-here/installation/) guide.
 
 ## Documentation
 
-Visit our [official documentation](https://docs.thulite.io/getting-started/).
+Visit our [official documentation](https://docs.thulite.io).
 
 ## Support
 
 Having trouble? Get help in the official [Thulite Discussions](https://github.com/orgs/thuliteio/discussions).
-
-## Contributing
-
-New contributors welcome! Check out our [Contributor Guides](https://docs.thulite.io/contribute/) for help getting started.
 
 ## Links
 
@@ -56,7 +53,8 @@ New contributors welcome! Check out our [Contributor Guides](https://docs.thulit
 - [Project Funding](https://github.com/thuliteio/.github/blob/main/FUNDING.md)
 - [Website](https://thulite.io/)
 
-## Sponsors
+## Sponsoring
 
+Help keep Thulite sustainable by supporting maintenance, documentation, and long-term development.
 
-Thulite is free and open-source, thanks to our amazing sponsors. Help keep Thulite sustainable by supporting maintenance, documentation, and long-term development. [Sponsor Thulite](https://github.com/sponsors/thuliteio) ❤️
+[Sponsor Thulite](https://github.com/sponsors/thuliteio) ❤️

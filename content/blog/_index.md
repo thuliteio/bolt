@@ -1,6 +1,6 @@
 ---
 title: "Blog"
-description: "Bolt blog"
+description: "Explore the Bolt blog for practical guides, Markdown references, and useful examples for building and customizing a Thulite website."
 date: 2020-04-17T12:17:27+00:00
 lastmod: 2020-04-17T12:17:27+00:00
 draft: false

@@ -9,71 +9,83 @@
 
 ## content
 [[mounts]]
-  source = "content"
-  target = "content"
+source = "content"
+target = "content"
 
 ## data
 [[mounts]]
-  source = "data"
-  target = "data"
+source = "data"
+target = "data"
 
 ## layouts
 [[mounts]]
-  source = "layouts"
-  target = "layouts"
+source = "layouts"
+target = "layouts"
 
 [[mounts]]
-  source = "node_modules/@thulite/bolt-core/layouts"
-  target = "layouts"
+source = "node_modules/@thulite/bolt-core/layouts"
+target = "layouts"
+
+# [[mounts]]
+# source = "../bolt-core/layouts"
+# target = "layouts"
 
 [[mounts]]
-  source = "node_modules/@thulite/core/layouts"
-  target = "layouts"
+source = "node_modules/@thulite/core/layouts"
+target = "layouts"
 
 [[mounts]]
-  source = "node_modules/@thulite/seo/layouts"
-  target = "layouts"
+source = "node_modules/@thulite/seo/layouts"
+target = "layouts"
 
 [[mounts]]
-  source = "node_modules/@thulite/images/layouts"
-  target = "layouts"
+source = "node_modules/@thulite/images/layouts"
+target = "layouts"
 
 ## i18n
 [[mounts]]
-  source = "i18n"
-  target = "i18n"
+source = "i18n"
+target = "i18n"
 
 ## archetypes
 [[mounts]]
-  source = "archetypes"
-  target = "archetypes"
+source = "archetypes"
+target = "archetypes"
 
 [[mounts]]
-  source = "node_modules/@thulite/bolt-core/archetypes"
-  target = "archetypes"
+source = "node_modules/@thulite/bolt-core/archetypes"
+target = "archetypes"
+
+# [[mounts]]
+# source = "../bolt-core/archetypes"
+# target = "archetypes"
 
 ## assets
 [[mounts]]
-  source = "node_modules/@thulite/core/assets"
-  target = "assets"
+source = "node_modules/@thulite/core/assets"
+target = "assets"
 
 [[mounts]]
-  source = "node_modules/@thulite/bolt-core/assets"
-  target = "assets"
+source = "node_modules/@thulite/bolt-core/assets"
+target = "assets"
+
+# [[mounts]]
+# source = "../bolt-core/assets"
+# target = "assets"
 
 [[mounts]]
-  source = "node_modules/@thulite/images/assets"
-  target = "assets"
+source = "node_modules/@thulite/images/assets"
+target = "assets"
 
 [[mounts]]
-  source = "hugo_stats.json"
-  target = "assets/watching/hugo_stats.json"
+source = "hugo_stats.json"
+target = "assets/watching/hugo_stats.json"
 
 [[mounts]]
-  source = "assets"
-  target = "assets"
+source = "assets"
+target = "assets"
 
 ## static
 [[mounts]]
-  source = "static"
-  target = "static"
+source = "static"
+target = "static"
