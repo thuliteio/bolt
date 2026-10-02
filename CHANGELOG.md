@@ -1,5 +1,11 @@
 # bolt
 
+## 2.0.1
+
+### Patch Changes
+
+- [#24](https://github.com/thuliteio/bolt/pull/24) [`378370f`](https://github.com/thuliteio/bolt/commit/378370fa0c800eb582b0223bc9159cae81a3c129) Thanks [@h-enk](https://github.com/h-enk)! - chore: update thulite and devDependencies versions
+
 ## 2.0.0
 
 ### Major Changes
