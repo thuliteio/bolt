@@ -1,5 +1,11 @@
 # bolt
 
+## 2.0.2
+
+### Patch Changes
+
+- [#25](https://github.com/thuliteio/bolt/pull/25) [`89c9831`](https://github.com/thuliteio/bolt/commit/89c983124fdb74339eadb1fffdcb3cafc81002ad) Thanks [@h-enk](https://github.com/h-enk)! - fix: update Content-Security-Policy to include additional script hash
+
 ## 2.0.1
 
 ### Patch Changes
